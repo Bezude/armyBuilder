@@ -1,0 +1,36 @@
+<ul>
+	<div id="bookDiv">
+		<div class="listEntry" ng-repeat="(id, unit) in armyBook" ng-class="id + 'Div'">
+			<li>
+				<table>
+					<tr>
+						<th colspan="2">
+							<h4>{{unit.name}}</h4>
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<img ng-src="{{unit.imageURL}}" class="unitListing" width="80" height="80"/>
+						</td>
+						<td>
+							<table class="gradienttable">
+								<tr>
+									<th></th><th>M</th><th>WS</th><th>BS</th><th>S</th><th>T</th><th>W</th><th>I</th><th>A</th><th>L</th>
+								</tr>
+								<tr>
+									<td><b>{{unit.name}}<b></td><td ng-repeat="stat in unit.stats track by $index">{{stat}}</td>
+								</tr>
+								<tr ng-if="hasAddStats(id)">
+									<td><b>{{unit.addStatsLabel}}<b></td><td ng-repeat="stat in unit.addStats track by $index">{{stat}}</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</li>
+		</div>
+	</div>
+	<div id="rosterDiv" ng-init="roster={}">
+
+	</div>
+</ul>

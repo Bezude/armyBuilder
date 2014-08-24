@@ -1,0 +1,183 @@
+{
+	"listEntries": {
+		"eGeneral": {
+			"army": "Empire",
+			"id": "eGeneral",
+			"name": "General",
+			"imageURL": "img/armies/empire/bananaRiot.jpg",
+			"composition": "lord",
+			"min": 1,
+			"max": 1,
+			"points": 80,
+			"stats": [4,5,5,4,4,3,5,3,9]
+		},
+		"grandMaster": {
+			"army": "Empire",
+			"id": "grandMaster",
+			"name": "Grand Master",
+			"imageURL": "img/armies/empire/dayStar.jpg",
+			"composition": "lord",
+			"min": 1,
+			"max": 1,
+			"points": 100,
+			"stats": [4,6,3,4,4,3,5,4,9]
+		},
+		"eCaptain": {
+			"army": "Empire",
+			"id": "eCaptain",
+			"name": "Captain",
+			"imageURL": "img/armies/empire/allHailSealtugatta.jpg",
+			"composition": "hero",
+			"min": 1,
+			"max": 1,
+			"points": 60,
+			"stats": [4,5,5,4,4,2,5,3,8]
+		},
+		"warriorPriest": {
+			"army": "Empire",
+			"id": "warriorPriest",
+			"name": "Warrior Priest",
+			"imageURL": "img/armies/empire/WarriorPriest.jpg",
+			"composition": "hero",
+			"min": 1,
+			"max": 1,
+			"points": 80,
+			"stats": [4,4,4,4,4,2,5,2,8]
+		},
+		"eHalberds": {
+			"army": "Empire",
+			"id": "eHalberds",
+			"name": "Halberdiers",
+			"imageURL": "img/armies/empire/Halberdiers.jpg",
+			"composition": "core",
+			"min": 5,
+			"max": 100,
+			"points": 5,
+			"stats": [4,3,3,3,3,1,3,1,7]
+		},
+		"eSwords": {
+			"army": "Empire",
+			"id": "eSwords",
+			"name": "Swordsmen",
+			"imageURL": "img/armies/empire/Swordsmen.jpg",
+			"composition": "core",
+			"min": 5,
+			"max": 100,
+			"points": 6,
+			"stats": [4,4,3,3,3,1,4,1,7]
+		},
+		"eSpears": {
+			"army": "Empire",
+			"id": "eSpears",
+			"name": "Spearmen",
+			"imageURL": "img/armies/empire/Spearmen.jpg",
+			"composition": "core",
+			"min": 5,
+			"max": 100,
+			"points": 5,
+			"stats": [4,3,3,3,3,1,3,1,7]
+		},
+		"eMuskets": {
+			"army": "Empire",
+			"id": "eMuskets",
+			"name": "Musketmen",
+			"imageURL": "img/armies/empire/Musketmen.jpg",
+			"composition": "core",
+			"min": 5,
+			"max": 100,
+			"points": 8,
+			"stats": [4,3,3,3,3,1,3,1,7]
+		},
+		"eKnights": {
+			"army": "Empire",
+			"id": "eKnights",
+			"name": "Knights",
+			"imageURL": "img/armies/empire/Knights.jpg",
+			"composition": "core",
+			"min": 5,
+			"max": 100,
+			"points": 20,
+			"stats": [4,4,3,3,3,1,3,1,8],
+			"addStatsType": "mount",
+			"addStatsLabel": "warhorse",
+			"addStats": [8,3,0,3,0,0,3,1,5]
+		},
+		"innerCircle": {
+			"army": "Empire",
+			"id": "innerCircle",
+			"name": "Knights of the Inner Circle",
+			"imageURL": "img/armies/empire/InnerCircle.jpg",
+			"composition": "special",
+			"min": 5,
+			"max": 100,
+			"points": 20,
+			"stats": [4,4,3,4,3,1,3,1,8],
+			"addStatsType": "mount",
+			"addStatsLabel": "warhorse",
+			"addStats": [8,3,0,3,0,0,3,1,5]
+		},
+		"pistoliers": {
+			"army": "Empire",
+			"id": "pistoliers",
+			"name": "Pistoliers",
+			"imageURL": "img/armies/empire/Pistoliers.jpg",
+			"composition": "special",
+			"min": 5,
+			"max": 100,
+			"points": 17,
+			"stats": [4,3,3,3,3,1,3,1,8],
+			"addStatsType": "mount",
+			"addStatsLabel": "warhorse",
+			"addStats": [8,3,0,3,0,0,3,1,5]
+		},
+		"eCannon": {
+			"army": "Empire",
+			"id": "eCannon",
+			"name": "Cannon",
+			"imageURL": "img/armies/empire/Cannon.jpg",
+			"composition": "special",
+			"min": 1,
+			"max": 1,
+			"points": 100,
+			"stats": [4,0,0,0,7,3,0,0,0],
+			"addStatsType": "crew",
+			"addStatsLabel": "crew",
+			"addStats": [4,3,3,3,3,1,3,1,7]
+		},
+		"eMortar": {
+			"army": "Empire",
+			"id": "eMortar",
+			"name": "Mortar",
+			"imageURL": "img/armies/empire/Mortar.jpg",
+			"composition": "special",
+			"min": 1,
+			"max": 1,
+			"points": 90,
+			"stats": [4,0,0,0,7,3,0,0,0],
+			"addStatsType": "crew",
+			"addStatsLabel": "crew",
+			"addStats": [4,3,3,3,3,1,3,1,7]
+		},
+		"helblaster": {
+			"army": "Empire",
+			"id": "helblaster",
+			"name": "Helblaster Volley Gun",
+			"imageURL": "img/armies/empire/Helblaster.jpg",
+			"composition": "rare",
+			"min": 1,
+			"max": 1,
+			"points": 110,
+			"stats": [4,0,0,0,7,3,0,0,0],
+			"addStatsType": "crew",
+			"addStatsLabel": "crew",
+			"addStats": [4,3,3,3,3,1,3,1,7]
+		}
+	},
+	"extras": {
+		"mounts": {
+			"warhorse": {
+				"stats": [8,3,0,3,0,0,3,1,5]
+			}
+		}
+	}
+}
